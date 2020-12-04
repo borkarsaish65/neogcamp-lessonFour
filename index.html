@@ -4,40 +4,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banana Speak!</title>
 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 
-    <style>
-
-        .output{
-            height: 20vh;
-            width: 80%;
-            border:1px solid black;
-            padding:10px;
-            border-radius: 10px;
-        }
-
-
-    </style>
 </head>
 <body>
-
 <section class="header">
 
-<h1>Banana Speak</h1>
+<h1>Banana Speak!</h1>
 
 </section>
 
-    <textarea name="" id="mytextarea" cols="30" rows="10"></textarea>
+<div class="content">
 
-    <button class='btn'>ClickHere!</button>
+    <div class="input">
+        <textarea placeholder="Enter English text and get banana language as output!" name="" id="mytextarea" cols="30" rows="10"></textarea>
     
-
-    <div class="output">
-
-
-
+        <button style="display: block;" class='btn'>Translate!</button>
+    
     </div>
-    <section class="footer">  
+    
+    
+        <div class="output">
+    
+    
+    
+        </div>
+        
 
+
+</div>
+<section class="footer">  
+        <h2>About</h2>
+    <p>JS App to convert your normal English to minion's banana language.</p>
+    <p>Fun Fact: The banana language spoken by minions is actually a real language and not some random gibberish!</p>
     </section>
     <script src="sandbox.js"></script>
 </body>
